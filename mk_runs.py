@@ -19,10 +19,11 @@ on["L1157-B1"] =  [ 109989, 109990,]                                        # ma
 pars1 = {}
 pars1["L1157-B1"] = ""
 
-
 #        common parameters per source on subsequent runs (run1b, run2b)
 pars2 = {}
-pars2["L1157-B1"] = "pix_list=-13"
+pars2["L1157-B1"] = "pix_list=-5,12,13"
+# bank0: -5,12,13
+# bank1: -0,2,3,4,8,9,14,15#
 
 if __name__ == '__main__':    
     runs.mk_runs(project, on, pars1, pars2)
