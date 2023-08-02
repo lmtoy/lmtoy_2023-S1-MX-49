@@ -1,2 +1,2 @@
-SLpipeline.sh obsnum=109989 _s=L1157-B1 extent=200 dv=20 dw=20 restart=1 
-SLpipeline.sh obsnum=109990 _s=L1157-B1 extent=200 dv=20 dw=20 restart=1 
+SLpipeline.sh obsnum=109989 _s=L1157-B1 extent=200 dv=20 dw=20 restart=1 pix_list=-0
+SLpipeline.sh obsnum=109990 _s=L1157-B1 extent=200 dv=20 dw=20 restart=1 pix_list=-0
