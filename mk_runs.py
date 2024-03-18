@@ -32,4 +32,5 @@ pars2_test = ["oid=0 bank=0 pix_list=-5,12,13",
               "oid=1 bank=1 pix_list=-0,2,3,4,8,9,14,15"]
 
 if __name__ == '__main__':    
-    runs.mk_runs(project, on, pars1, pars2, sys.argv)
+    runs.mk_runs(project, on, pars1, pars2, pars3, argv=sys.argv)
+    #runs.mk_runs(project, on, [pars1, pars2, pars3], sys.argv)    
