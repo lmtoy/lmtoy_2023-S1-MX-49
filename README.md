@@ -1,8 +1,7 @@
 # 2023-S1-MX-49
 
 
-
-this project was observed with two banks,at 87.88 and 95.936 GHz at intermediate (400MHz) band, 4096 channels.
+This project was observed with two banks, at 87.88 and 95.936 GHz at intermediate (400MHz) band, 4096 channels.
 
 The default reduction is with dv=20, dw=20, but an initial run was made as __wide, with a very wide dv=100 dw=600, to show the 
 large number of birdies, and absense of any obvious signal
